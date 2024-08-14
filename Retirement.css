@@ -1,0 +1,145 @@
+.header {
+    background-image: url('https://images-cdn.ubuy.co.in/633ffd0d9548e06a01516ea3-happy-retirement-party-decorations.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.header p {
+    font-size: 20px;
+    margin: 10px 0 0;
+}
+
+.content {
+    padding: 20px;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.card img {
+    border-radius: 10px;
+    max-width: 200px;
+    margin-right: 20px;
+}
+
+.card h2 {
+    margin: 0;
+    font-size: 28px;
+    color: #fffafa;
+}
+
+.card p {
+    font-size: 16px;
+    margin: 10px 0 0;
+    color: #fffafa;
+}
+
+.card-content {
+    max-width: 800px;
+}
+
+
+
+#services h2 {
+color: #fffafa;
+}
+
+.service-card {
+
+border-radius: 50px;
+padding: 20px;
+box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease;
+border-radius: 50px 0px 50px 0px;
+overflow: hidden;
+}
+
+.service-card:hover {
+transform: scale(1.05);
+}
+
+.service-image {
+width: 120px;
+height: 120px;
+margin: 0 auto;
+border-radius: 50%;
+overflow: hidden;
+border: 5px solid #004d40;
+}
+
+.service-image img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 50%;
+}
+
+.service-card h4 {
+font-size: 1.5em;
+color: #fffafa;
+margin-top: 20px;
+}
+
+.service-card p {
+color: #fffafa;
+font-size: 1.1em;
+}
+
+.services-section {
+padding: 50px;
+
+text-align: center;
+}
+
+.services-section h2 {
+font-size: 36px;
+margin-bottom: 40px;
+}
+#services h3{
+    color: #fffafa;
+}
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 20px;
+}
+
+.service-card {
+
+border-radius: 10px;
+overflow: hidden;
+transition: transform 0.3s ease;
+}
+
+.service-card img {
+width: 100%;
+height: auto;
+}
+
+.service-card h3 {
+font-size: 24px;
+margin: 20px 0;
+}
+
+.service-card p {
+padding: 0 20px 20px 20px;
+color: #fffafa;
+}
+
+.service-card:hover {
+transform: scale(1.05);
+}

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Event Planning</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="contact-wrapper">
+        <div class="contact-info">
+            <h1>Get in Touch</h1>
+            <p>We’d love to help you plan your next event. Reach out to us through any of the methods below.</p>
+            
+            <div class="info-box">
+                <h2>Our Office</h2>
+                <p>Trinity Quards<br>123 Event Planning Avenue, Suite 100<br>Cityville, CA 12345</p>
+            </div>
+
+            <div class="info-box">
+                <h2>Contact Details</h2>
+                <p><strong>Phone:</strong> (123) 456-7890</p>
+                <p><strong>Email:</strong> contact@eventplanner.com</p>
+            </div>
+
+            <div class="info-box">
+                <h2>Follow Us</h2>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        
+        <div class="map-container">
+            <h2>Visit Us</h2>
+            <div class="map">
+                <!-- Replace the src with your actual map embed URL -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345080865!2d144.9537363153189!3d-37.8162796797515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43f1f1f2e7%3A0x506f0b3c6e1a5bde!2s123%20Event%20Planning%20Avenue%2C%20Suite%20100%2C%20Cityville%2C%20CA%2012345!5e0!3m2!1sen!2sus!4v1620212345678!5m2!1sen!2sus" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<style>
+    body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.contact-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1000px;
+    background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.contact-wrapper:hover {
+    transform: scale(1.02);
+}
+
+.contact-info, .contact-form, .map-container {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.contact-info {
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info:hover {
+    background-color: #ffe4e1;
+}
+
+.contact-info h1 {
+    color: #ff7f7f;
+    margin-bottom: 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+.contact-info h1:hover {
+    color: #ff4f4f;
+}
+
+.contact-info p {
+    color: #555;
+    margin-bottom: 20px;
+    transition: color 0.3s ease-in-out;
+}
+
+.contact-info p:hover {
+    color: #333;
+}
+
+.info-box {
+    transition: transform 0.3s ease-in-out;
+}
+
+.info-box:hover {
+    transform: translateX(10px);
+}
+
+.info-box h2 {
+    color: #333;
+    margin-bottom: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.info-box h2:hover {
+    color: #ff7f7f;
+}
+
+.info-box p {
+    color: #777;
+    margin-bottom: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.info-box p:hover {
+    color: #555;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    transition: transform 0.3s ease-in-out;
+    color: #333;
+    font-size: 2em;
+}
+
+.social-icons a img {
+    width: 32px;
+    height: 32px;
+}
+
+.social-icons a:hover {
+    transform: rotate(360deg) scale(1.2);
+}
+
+.contact-form h2 {
+    color: #fff;
+    margin-bottom: 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+.contact-form h2:hover {
+    color: #ff7f7f;
+    transform: scale(1.2);
+}
+
+.contact-form form label {
+    display: block;
+    color: #fff;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.contact-form form input:hover,
+.contact-form form textarea:hover {
+    background-color: #ffe4e1;
+    box-shadow: 0 0 10px rgba(255, 182, 193, 0.8);
+}
+
+.contact-form form input:focus,
+.contact-form form textarea:focus {
+    outline: none;
+    box-shadow: 0 0 12px rgba(255, 182, 193, 0.5);
+    background-color: #fff;
+}
+
+.contact-form form input::placeholder,
+.contact-form form textarea::placeholder {
+    color: #ddd;
+    transition: color 0.3s ease-in-out;
+}
+
+.contact-form form input:hover::placeholder,
+.contact-form form textarea:hover::placeholder {
+    color: #999;
+}
+
+.contact-form form button {
+    background-color: #ff7f7f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.contact-form form button:hover {
+    background-color: #ff4f4f;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.map-container h2 {
+    color: #ff7f7f;
+    margin-bottom: 15px;
+    text-align: center;
+    transition: color 0.3s ease-in-out;
+}
+
+.map-container h2:hover {
+    color: #ff4f4f;
+}
+
+.map {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.map:hover {
+    transform: scale(1.05);
+}
+</style>
