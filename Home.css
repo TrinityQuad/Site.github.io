@@ -106,6 +106,47 @@ padding: 10px 20px;
 border-radius: 5px;
 margin-right: 10px;
 }
+    @media (max-width: 768px) {
+        .carousel-caption h2 {
+            font-size: 1.75em;
+        }
+
+        .carousel-caption p {
+            font-size: 1em;
+        }
+
+        .carousel-caption .btn {
+            font-size: 0.9em;
+            padding: 8px 16px;
+        }
+
+        .carousel-caption {
+            bottom: 15%;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .carousel-item {
+            height: 60vh;
+        }
+
+        .carousel-caption h2 {
+            font-size: 1.5em;
+        }
+
+        .carousel-caption p {
+            font-size: 0.9em;
+        }
+
+        .carousel-caption .btn {
+            font-size: 0.8em;
+            padding: 6px 12px;
+        }
+
+        .carousel-caption {
+bottom: 10%;
+        }
+    }
 
 #wedding {
   padding: 20px;
