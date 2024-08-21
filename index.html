@@ -64,41 +64,106 @@
            
 <div id="bgCarousel" class="carousel slide bg-carousel" data-bs-ride="carousel">
     <div id="home">
-<div class="carousel-inner">
-    <div class="carousel-item active" style="background-image: url('https://image.wedmegood.com/resized/1900X/uploads/city_bg_image/1/delhi_bg.jpeg');">
-        <div class="carousel-caption d-none d-md-block">
-            <h2>Weddings</h2>
-            <p class="lead">Your Dream Wedding, Our Planning</p>
-            <a href="#about" class="btn btn-primary">About Us</a>
-            <a href="#contact" class="btn btn-success">Call Now</a>
-        </div>
-    </div>
-    <div class="carousel-item" style="background-image: url('https://cdn.mos.cms.futurecdn.net/NHyvsZbRf55RZTVH5FcHB7.jpg');">
-        <div class="carousel-caption d-none d-md-block">
-            <h2>Birthdays</h2>
-            <p class="lead">Making Every Birthday Special</p>
-            <a href="#about" class="btn btn-primary">About Us</a>
-            <a href="#contact" class="btn btn-success">Call Now</a>
-        </div>
-    </div>
-    <div class="carousel-item" style="background-image: url('https://5.imimg.com/data5/SELLER/Default/2022/8/QF/JF/PJ/2713142/retirement-party-decoration-service.JPG');">
-        <div class="carousel-caption d-none d-md-block">
-            <h2>Retirements</h2>
-            <p class="lead">Celebrating Your Achievements</p>
-            <a href="#about" class="btn btn-primary">About Us</a>
-            <a href="#contact" class="btn btn-success">Call Now</a>
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="background-image: url('https://image.wedmegood.com/resized/1900X/uploads/city_bg_image/1/delhi_bg.jpeg');">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Weddings</h2>
+                    <p class="lead">Your Dream Wedding, Our Planning</p>
+                    <a href="#about" class="btn btn-primary">About Us</a>
+                    <a href="#contact" class="btn btn-success">Call Now</a>
+                </div>
+            </div>
+            <div class="carousel-item" style="background-image: url('https://cdn.mos.cms.futurecdn.net/NHyvsZbRf55RZTVH5FcHB7.jpg');">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Birthdays</h2>
+                    <p class="lead">Making Every Birthday Special</p>
+                    <a href="#about" class="btn btn-primary">About Us</a>
+                    <a href="#contact" class="btn btn-success">Call Now</a>
+                </div>
+            </div>
+            <div class="carousel-item" style="background-image: url('https://5.imimg.com/data5/SELLER/Default/2022/8/QF/JF/PJ/2713142/retirement-party-decoration-service.JPG');">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Retirements</h2>
+                    <p class="lead">Celebrating Your Achievements</p>
+                    <a href="#about" class="btn btn-primary">About Us</a>
+                    <a href="#contact" class="btn btn-success">Call Now</a>
+                </div>
+            </div>
         </div>
     </div>
 </div>
-</div><br><br>
 
+<style>
+    .carousel-item {
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 
-    <center>
-    <div class="video">
-        <h2 style="color:#fffafa">Our Works</h2>
-        <br><br>
-        <video src="./video1.mp4" controls autoplay loop ></video>
-    </div>
+    .carousel-caption {
+        bottom: 20%;
+        text-align: center;
+    }
+
+    .carousel-caption h2 {
+        font-size: 2.5em;
+        font-weight: bold;
+    }
+
+    .carousel-caption p {
+        font-size: 1.25em;
+    }
+
+    .carousel-caption .btn {
+        margin: 10px 5px;
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+
+    @media (max-width: 768px) {
+        .carousel-caption h2 {
+            font-size: 1.75em;
+        }
+
+        .carousel-caption p {
+            font-size: 1em;
+        }
+
+        .carousel-caption .btn {
+            font-size: 0.9em;
+            padding: 8px 16px;
+        }
+
+        .carousel-caption {
+            bottom: 15%;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .carousel-item {
+            height: 60vh;
+        }
+
+        .carousel-caption h2 {
+            font-size: 1.5em;
+        }
+
+        .carousel-caption p {
+            font-size: 0.9em;
+        }
+
+        .carousel-caption .btn {
+            font-size: 0.8em;
+            padding: 6px 12px;
+        }
+
+        .carousel-caption {
+            bottom: 10%;
+        }
+    }
+</style>
+
 </center>
     <div class="video">
     <h2>Our Works</h2>
