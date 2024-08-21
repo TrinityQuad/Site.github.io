@@ -12,13 +12,6 @@
     padding-left: 0;
     padding-right: 0;
 }
-
-.carousel-item {
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-}
-
 .navbar {
   position: sticky;
   top: 0;
@@ -36,6 +29,14 @@
 }
 
 .carousel-item {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.carousel-item {
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -46,6 +47,68 @@
     position: sticky;
     top: 0;
     z-index: 1000;
+}
+/* Responsive Styles */
+@media (max-width: 992px) {
+    .carousel-item {
+        height: 80vh;
+    }
+
+    .carousel-caption h2 {
+        font-size: 2rem;
+    }
+
+    .carousel-caption p.lead {
+        font-size: 1rem;
+    }
+
+    .carousel-caption .btn {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-item {
+        height: 70vh;
+    }
+
+    .carousel-caption h2 {
+        font-size: 1.75rem;
+    }
+
+    .carousel-caption p.lead {
+        font-size: 0.9rem;
+    }
+
+    .carousel-caption .btn {
+        font-size: 0.85rem;
+        padding: 7px 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-item {
+        height: 60vh;
+    }
+
+    .carousel-caption {
+        text-align: center;
+    }
+
+    .carousel-caption h2 {
+        font-size: 1.5rem;
+    }
+
+    .carousel-caption p.lead {
+        font-size: 0.8rem;
+    }
+
+    .carousel-caption .btn {
+        font-size: 0.8rem;
+        padding: 6px 12px;
+        margin-bottom: 10px;
+    }
 }
 
 #navbarNavDropdown {
